@@ -1,0 +1,577 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="holagente.css">
+    <meta charset="UTF-8">
+    <title>ArgentinaPrograma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Iconos  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+
+<header class="container">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"  id="inicio">
+            <i style="font-size: 50px;">≡</i>
+        </label>
+        <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" class="enlace">
+            <img loading="lazy" src="assets/imagenes/logo.png" alt="" class="logo" height="70" width="110">
+        </a>
+        <ul>
+            <li><a class="active" href="#Nada">Lautaro Diez </a></li>
+        </ul>
+    </nav>
+    
+    <div class="profile">
+        <img src="assets/imagenes/Yo.jpg" alt="">
+        <h3>Lautaro Diez</h3>
+        <div class="share">
+            <a href="https://github.com/Diez111" class="fab fa-github"></a>
+            <a href="https://www.linkedin.com/in/lautaro-diez-46916225b/" class="fab fa-linkedin"></a>
+        </div>
+        <div class="buttons">
+            <a href="#" class="btn">Descargar CV</a>
+        </div>
+    </div>
+
+
+
+<section class="information">
+    <div class="about">
+        <h3 class="title">Sobre mi:</h3>
+        <p>Soy un estudiante apasionado de la ingeniería en sistemas y un egresado como técnico en electrónica. Me encanta aprender y explorar nuevas tecnologías, y estoy en busca de oportunidades para aplicar mis habilidades y conocimientos en proyectos emocionantes y desafiantes.</p>
+    
+        <div class="box-container">
+            <div class="box">
+                <h3> <span>Edad : </span> 19 </h3>
+                <h3> <span> Direccion : </span> Ciudad Evita, Buenos Aires, Argentina </h3>
+                <h3> <span> numero : </span> +54 11-6951-9065 </h3>
+                <h3> <span> Email : </span> lautaroagustindiez@gmail.com </h3>
+            </div>
+            <div class="box">
+                <h3> <span> Habilidades : </span> Diseñador web, Trabajo en equipo, conductor </h3>
+                <h3> <span> Idiomas : </span>Español (nativo), Ingles (basico) </h3>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modaleditarsobremi" class="modalmask">
+        <div class="modalbox movedown">
+                <div class="login">
+                    <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de editar sobre mi</h1>
+                    <form action="#" target="" method="get" name="formDatosPersonales">
+                        <label for="edad">edad</label>
+                        <input name="edad" id="edad" placeholder="Numero de tu edad"/>
+                        <label for="apellidos">Direccion</label>
+                        <input  for="direccion" placeholder="Escribe tu direccion"/>                        
+                        <label for="numero" >Numero</label>
+                        <input type="numero" name="numero" id="numero" placeholder="numero" required />
+                        <label for="Email" >Email</label>
+                        <input type="Email" name="Email" id="Email" placeholder="Email" required />
+                        <label for="Habilidades" >Habilidades</label>
+                        <input type="Habilidades" name="Habilidades" id="Habilidades" placeholder="Habilidades" required />
+                        <label for="Idiomas" >Idiomas</label>
+                        <input type="Idiomas" name="Idiomas" id="Idiomas" placeholder="Idiomas" required />
+                        <input type="submit" name="enviar" value="enviar datos"/>
+                    </form>
+    
+                </div>
+            </div>
+        </div>
+    
+            <div id="modaleliminarsobremi" class="modalmask">
+                <div class="modalbox movedown">
+                        <div class="login">
+                            <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de eliminar</h1>
+                            <form action="#" target="" method="get" name="formDatosPersonales">
+    
+                                <label for="email" >Eliminar:</label>
+                                <div>
+                                    <select>
+                                      <option value="opcion-1">edad</option>
+                                      <option value="opcion-2">Habilidades</option>
+                                      <option value="opcion-n">Direccion</option>
+                                      <option value="opcion-n">Numero</option>
+                                      <option value="opcion-n">Email</option>
+                                      <option value="opcion-n">Idiomas</option>
+                                    </select>
+                                  </div>
+                                <input type="submit" name="enviar" value="enviar datos"/>
+                            </form>
+        
+                        </div>
+                    </div>
+                </div>
+
+                <section>
+                    <div class="services">
+                        <h3 class="title">Tecnologias:</h3>
+                        <div class="box-container">
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/icon-1.png" alt="">
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/icon-2.png" alt="">
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/icon-3.png" alt="">
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/php.png" alt="">
+                                <h3>PHP</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/angular.png" alt="">
+                                <h3>Angular</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/mysql.png" alt="">
+                                <h3>MySQL</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/java.png" alt="">
+                                <h3>Java</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/springboot.webp" alt="">
+                                <h3>Spring boot</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/Proteus.png" alt="">
+                                <h3>Proteus</h3>
+                            </div>
+                            <div class="box">
+                                <img loading="lazy" src="assets/iconos/kicad.png" alt="">
+                                <h3>Kicad</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+            
+        
+                    <div id="editartecnologia" class="modalmask">
+                        <div class="modalbox movedown">
+                                <div class="login">
+                                    <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de editar tecnologias</h1>
+                                    <form action="#" target="" method="get" name="formDatosPersonales">
+                                        <label for="Habilidad">Habilidad:</label>
+                                        <input name="Habilidad" id="Habilidad" placeholder="Nombre de la Habilidad" required />
+                                        <label for="Porcentaje">Imagen:</label>
+                                        <input type="file" name="archivosubido">
+                                        <input type="submit" name="enviar" value="enviar datos"/>
+                                    </form>
+                    
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div id="eliminartecnologia" class="modalmask">
+                            <div class="modalbox movedown">
+                                    <div class="login">
+                                        <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de eliminar</h1>
+                                        <form action="#" target="" method="get" name="formDatosPersonales">
+                    
+                                            <label for="email" >Eliminar:</label>
+                                            <div>
+                                                <select>
+                                                  <option value="opcion-1">HTML</option>
+                                                  <option value="opcion-2">CSS</option>
+                                                  <option value="opcion-n">JavaScript</option>
+                                                  <option value="opcion-n">PHP</option>
+                                                  <option value="opcion-n">Angular</option>
+                                                  <option value="opcion-n">MySql</option>
+                                                </select>
+                                              </div>
+                                            <input type="submit" name="enviar" value="enviar datos"/>
+                                        </form>
+                    
+                                    </div>
+                                </div>
+                            </div>    
+
+                            <section>
+                                <div class="skills">
+                                    <h3 class="title">Habilidades:</h3>
+                                    <div class="box-container">
+                                        <div class="box">
+                                            <div class="progress">
+                                                <h3>HTML<span>95%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>CSS<span>80%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>JavaScript<span>60%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>PHP<span>75%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>Angular<span>90%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>Spring boot<span>60%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="box">
+                                            <div class="progress">
+                                                <h3>Diseñador web<span>80%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>Linux<span>100%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>MySql<span>90%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>Proteus<span>100%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                            <div class="progress">
+                                                <h3>Kicad<span>100%</span></h3>
+                                                <div class="bar"><span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            
+                            <div id="editarhabilidades" class="modalmask">
+                                <div class="modalbox movedown">
+                                        <div class="login">
+                                            <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de editar Habilidades</h1>
+                                            <form action="#" target="" method="get" name="formDatosPersonales">
+                                                <label for="Habilidad">Habilidad</label>
+                                                <input name="Habilidad" id="Habilidad" placeholder="Nombre de la Habilidad" required />
+                                                <label for="Porcentaje">Porcentaje</label>
+                                                <input name="Porcentaje" id="Porcentaje" placeholder="Porcentaje del conocimiento" required />
+                                                <input type="submit" name="enviar" value="enviar datos"/>
+                                            </form>
+                            
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div id="eliminarhabilidades" class="modalmask">
+                                    <div class="modalbox movedown">
+                                            <div class="login">
+                                                <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de eliminar</h1>
+                                                <form action="#" target="" method="get" name="formDatosPersonales">
+                            
+                                                    <label for="email" >Eliminar:</label>
+                                                    <div>
+                                                        <select>
+                                                          <option value="opcion-1">HTML</option>
+                                                          <option value="opcion-2">CSS</option>
+                                                          <option value="opcion-n">JavaScript</option>
+                                                          <option value="opcion-n">PHP</option>
+                                                          <option value="opcion-n">Angular</option>
+                                                          <option value="opcion-n">MySql</option>
+                                                        </select>
+                                                      </div>
+                                                    <input type="submit" name="enviar" value="enviar datos"/>
+                                                </form>
+                            
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <section>
+                                        <div class="experience">
+                                            <h3 class="title">Estudios:⠀<a href="#editarestudio"></a></h3>
+                                            <div class="box-container">
+                                                <div class="box">
+                                                    <span>2023-2028</span>
+                                                    <h3>Universidad Tecnologica Nacional (Universida)</h3>
+                                                    <p>Universidad publica. En la carrera de "Ingeniero en sistemas"</p> 
+                                                </div>
+                                              </div> 
+                                            </div>
+                                              <div class="experience">
+                                            <div class="box-container">
+                                                <div class="box">
+                                                    <span>2016-2022</span>
+                                                    <h3>Instituto Madero (Secundairo tecnico)</h3>
+                                                    <p>Instituto tecnico en la especialidad de electronica</p>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                              <div class="experience">
+                                            <div class="box-container">
+                                                <div class="box">
+                                                    <span>2009-2015</span>
+                                                    <h3>Colegio Santa Ana (Primaria) </h3>
+                                                    <p>Colegio primario de Ciudad Evita</p>
+                                                </div>
+                                             </div>
+                                         </div>
+                                    </section>
+                                    
+                                    <div id="editarestudio" class="modalmask">
+                                      <div class="modalbox movedown">
+                                              <div class="login">
+                                                  <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de editar estudios</h1>
+                                                  <form action="#" target="" method="get" name="formDatosPersonales">
+                                                      <label for="Años">Años:</label>
+                                                      <input type ="text" name="Años" id="Años" placeholder="el tiempo que tardo"/>
+                                                      <label for="Titulo" >Titulo</label>
+                                                      <input type="Titulo" name="Titulo" id="Titulo" placeholder="Titulo" required />
+                                                      <label for="mensaje">Descripcion:</label>
+                                                      <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+                                                      <input type="submit" name="enviar" value="enviar datos"/>
+                                                   </form>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    
+                                      <div id="eliminarestudio" class="modalmask"> 
+                                          <div class="modalbox movedown">
+                                                  <div class="login">
+                                                      <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de eliminar</h1>
+                                                      <form action="#" target="" method="get" name="formDatosPersonales">
+                                                          <label for="email" >Eliminar:</label>
+                                                              <select>
+                                                                <option value=""> titulo:</option>
+                                                                <option value="opcion-1">titulo 1</option>
+                                                                <option value="opcion-2">titulo 2</option>
+                                                                <option value="opcion-n">titulo 3</option>
+                                                              </select>
+                                                          <input type="submit" name="enviar" value="enviar datos"/>
+                                                      </form>
+                                                  </div>
+                                              </div>
+                                          </div>
+
+                                          <section>
+                                            <div class="experience">
+                                                <h3 class="title">Experiencia:⠀</h3>
+                                                <div class="box-container">
+                                                    <div class="box">
+                                                        <span>2022- 2022</span>
+                                                        <h3>Pasantia en "Laser Argentina"</h3>
+                                                        <p>Como parte de las 200hs de pasantia impuestas por el gobierno de la provincia de Buenos Aires para los colegios tecnicos</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        
+                                        <div id="editarexperiencia" class="modalmask">
+                                            <div class="modalbox movedown">
+                                                    <div class="login">
+                                                        <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de editar Experiencia</h1>
+                                                        <form action="#" target="" method="get" name="formDatosPersonales">
+                                                            <label for="Años">Años:</label>
+                                                            <input type ="text" name="Años" id="Años" placeholder="el tiempo que tardo"/>
+                                                            <label for="Titulo" >Titulo</label>
+                                                            <input type="Titulo" name="Titulo" id="Titulo" placeholder="Titulo" required />
+                                                            <label for="mensaje">Descripcion:</label>
+                                                            <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+                                                            <input type="submit" name="enviar" value="enviar datos"/>
+                                                         </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div id="eliminarexperiencia" class="modalmask"> 
+                                                <div class="modalbox movedown">
+                                                        <div class="login">
+                                                            <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de eliminar</h1>
+                                                            <form action="#" target="" method="get" name="formDatosPersonales">
+                                                                <label for="email" >Eliminar:</label>
+                                                                    <select>
+                                                                      <option value=""> titulo:</option>
+                                                                      <option value="opcion-1">titulo 1</option>
+                                                                      <option value="opcion-2">titulo 2</option>
+                                                                      <option value="opcion-n">titulo 3</option>
+                                                                    </select>
+                                                                <input type="submit" name="enviar" value="enviar datos"/>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        
+
+
+        <section>
+            <div class="services">
+                <h3 class="title">Cursos:<a href="#editarcursos"></a></h3>
+                <div class="box-container">
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/HTML-CSS-1.png" alt="">
+                        <h3>HTML-CSS-1</h3>
+                    </div>
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/HTML-CSS-2.png" alt="">
+                        <h3>HTML-CSS-2</h3>
+                    </div>
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/linux.png" alt="">
+                        <h3>Linux</h3>
+                    </div>
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/marketing.png" alt="">
+                        <h3>marketing</h3>
+                    </div>
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/networking.png" alt="">
+                        <h3>networking</h3>
+                    </div>
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/python.png" alt="">
+                        <h3>python</h3>
+                    </div>
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/seguridadtele.png" alt="">
+                        <h3>Seguridad en el teletrabajo</h3>
+                    </div>
+                    <div class="box">
+                        <img loading="lazy" src="assets/certificados/seprogramar.png" alt="">
+                        <h3>Se programar Argentina</h3>
+                    </div>
+                </div>
+            </div>
+            </section>
+    
+
+            <div id="editarcursos" class="modalmask">
+                <div class="modalbox movedown">
+                        <div class="login">
+                            <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de editar cursos</h1>
+                            <form action="#" target="" method="get" name="formDatosPersonales">
+                                <label for="Habilidad">Habilidad:</label>
+                                <input name="Habilidad" id="Habilidad" placeholder="Nombre de la Habilidad" required />
+                                <label for="Porcentaje">Imagen:</label>
+                                <input type="file" name="archivosubido">
+                                <input type="submit" name="enviar" value="enviar datos"/>
+                            </form>
+            
+                        </div>
+                    </div>
+                </div>
+            
+            
+                <div id="eliminarcursos" class="modalmask">
+                    <div class="modalbox movedown">
+                            <div class="login">
+                                <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de eliminar</h1>
+                                <form action="#" target="" method="get" name="formDatosPersonales">
+            
+                                    <label for="email" >Eliminar:</label>
+                                    <div>
+                                        <select>
+                                          <option value="opcion-1">HTML</option>
+                                          <option value="opcion-2">CSS</option>
+                                          <option value="opcion-n">JavaScript</option>
+                                          <option value="opcion-n">PHP</option>
+                                          <option value="opcion-n">Angular</option>
+                                          <option value="opcion-n">MySql</option>
+                                        </select>
+                                      </div>
+                                    <input type="submit" name="enviar" value="enviar datos"/>
+                                </form>
+            
+                            </div>
+                        </div>
+                    </div>
+
+                    <section>
+                        <div class="contact">
+                                 <h3 class="title">Contacto:⠀</h3>
+                                 <div class="box-container">
+                                     <div class="box">
+                                         <i class="fas fa-map"></i>
+                                         <div class="info">
+                                             <h3>Mi direccion:</h3>
+                                             <p>Ciudad Evita, Buenos Aires - Argentina</p>
+                                           </div>
+                                       </div>
+                                     <div class="box">
+                                         <i class="fas fa-phone"></i>
+                                         <div class="info">
+                                             <h3>Numero</h3>
+                                             <p>+54 11-6951-9065 </p>
+                                           </div>
+                                       </div>
+                                     <div class="box">
+                                         <i class="fas fa-envelope"></i>
+                                         <div class="info">
+                                             <h3>Email:</h3>
+                                             <p> lautaroagustindiez@gmail.com                        </p>
+                                            </div>
+                                       </div>
+                                   </div>  
+                          </div>
+                                 <!-- Pie de pagina-->
+                               <footer class="footer">
+                                   <div class="fila">
+                                         <p>Hecho con ❤️ por Diez Lautaro</p>
+                                   </div><!-- fila -->
+                                 </footer>
+                     </section>
+                    
+                    
+                     <div id="editarinfocontacto" class="modalmask">
+                      <div class="modalbox movedown">
+                              <div class="login">
+                                  <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de editar informacion de contacto</h1>
+                                  <form action="#" target="" method="get" name="formDatosPersonales">
+                                      <label for="Email">Email:</label>
+                                      <input name="Email" id="Email" placeholder="Correo electronico" required />
+                                      <label for="Direccion">Direccion:</label>
+                                      <input name="Direccion" id="Direccion" placeholder="Direccion" required />
+                                      <label for="Numero">Numero:</label>
+                                      <input name="Numero" id="Numero" placeholder="Numero" required />
+                                      <input type="submit" name="enviar" value="enviar datos"/>
+                                  </form>
+                    
+                              </div>
+                          </div>
+                      </div>
+                    
+                    
+                      <div id="eliminarinfocontacto" class="modalmask">
+                          <div class="modalbox movedown">
+                                  <div class="login">
+                                      <h1 class="text-center" style="color: aliceblue; text-align: center;">Menu de eliminar</h1>
+                                      <form action="#" target="" method="get" name="formDatosPersonales">
+                                          <label for="email" >Eliminar:</label>
+                                          <div>
+                                              <select>
+                                                <option value="opcion-1">Direccion</option>
+                                                <option value="opcion-2">Numero</option>
+                                                <option value="opcion-3">Email</option>
+                                              </select>
+                                            </div>
+                                          <input type="submit" name="enviar" value="enviar datos"/>
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+
+</section>
+</header>
+</body>
+</html>
